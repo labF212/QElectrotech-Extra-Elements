@@ -1,0 +1,25 @@
+<definition width="60" height="30" link_type="simple" hotspot_x="29" hotspot_y="15" version="0.51" type="element" orientation="dyyy">
+    <uuid uuid="{63aeb5b1-d3af-4c40-b156-398a3212d48a}"/>
+    <names>
+        <name lang="es">Voltímetro horizontal</name>
+        <name lang="pt">Osciloscópio</name>
+        <name lang="cs">Voltmetr, vodorovný</name>
+        <name lang="de">Voltmeter waagerecht</name>
+        <name lang="el">Βολτόμετρο οριζόντιο</name>
+        <name lang="ar">فولتمتر أفقي</name>
+        <name lang="pl">Woltomierz (poziomo)</name>
+        <name lang="en">Osciloscope</name>
+        <name lang="fr">Voltmètre horizontal</name>
+    </names>
+    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+    <description>
+        <input x="9" y="-13.5" rotate="true" text="_" tagg="label" size="9"/>
+        <line length1="1.5" length2="1.5" antialias="false" y1="0" end1="none" y2="0" end2="none" x1="10" x2="21" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" length2="1.5" antialias="false" y1="0" end1="none" y2="0" end2="none" x1="-21" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle x="-10" y="-10" antialias="true" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <input x="-10" y="0" rotate="true" text="~" tagg="none" size="11"/>
+        <terminal x="-21" y="0" orientation="w"/>
+        <terminal x="21" y="0" orientation="e"/>
+    </description>
+</definition>
