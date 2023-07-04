@@ -1,0 +1,58 @@
+<definition height="30" link_type="simple" version="0.80" hotspot_x="4" hotspot_y="14" type="element" width="50">
+    <uuid uuid="{36246d26-11c0-423f-8dd5-b80b710efc20}"/>
+    <names>
+        <name lang="hu">Sorkapocs 1F + N + PE</name>
+        <name lang="en">Terminal block 1P+N+PE</name>
+        <name lang="de">Klemmleiste 1P+N+PE</name>
+        <name lang="it">Morsettiera 1P+N+PE</name>
+        <name lang="cs">Svorkovnice 1P+N+PE</name>
+        <name lang="fr">Bornier 1P+N+PE</name>
+        <name lang="pl">Listwa zaciskowa</name>
+        <name lang="pt">Bloco de Terminais 1P + N + PE</name>
+    </names>
+    <elementInformations>
+        <elementInformation name="quantity" show="1"></elementInformation>
+        <elementInformation name="comment" show="1"></elementInformation>
+        <elementInformation name="label" show="1"></elementInformation>
+        <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
+        <elementInformation name="description" show="1"></elementInformation>
+        <elementInformation name="manufacturer_reference" show="1"></elementInformation>
+        <elementInformation name="manufacturer" show="1"></elementInformation>
+        <elementInformation name="supplier" show="1"></elementInformation>
+        <elementInformation name="unity" show="1"></elementInformation>
+        <elementInformation name="plant" show="1"></elementInformation>
+        <elementInformation name="designation" show="1"></elementInformation>
+    </elementInformations>
+    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+    <description>
+        <dynamic_text uuid="{316b1fd1-bf87-4dfd-ba3b-c3f891613798}" frame="false" x="21" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text_from="UserText" Valignment="AlignTop" rotation="270" y="-1" text_width="-1" Halignment="AlignLeft" z="2">
+            <text>N</text>
+        </dynamic_text>
+        <dynamic_text uuid="{f3a65df9-856b-40b3-a779-297b97e76634}" frame="false" x="3" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text_from="UserText" Valignment="AlignTop" rotation="270" y="-1" text_width="-1" Halignment="AlignLeft" z="4">
+            <text>L1</text>
+        </dynamic_text>
+        <line x1="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="10" length1="1.5" end2="none" y2="3" x2="20" length2="1.5"/>
+        <dynamic_text uuid="{2206fca5-ff7a-4ae6-b1e1-9e98c00a2c91}" frame="false" x="41" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text_from="UserText" Valignment="AlignTop" rotation="270" y="-1" text_width="-1" Halignment="AlignLeft" z="5">
+            <text>PE</text>
+        </dynamic_text>
+        <line x1="40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="10" length1="1.5" end2="none" y2="3" x2="40" length2="1.5"/>
+        <line x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="10" length1="1.5" end2="none" y2="3" x2="0" length2="1.5"/>
+        <line x1="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-10" length1="1.5" end2="none" y2="-3" x2="20" length2="1.5"/>
+        <dynamic_text uuid="{0a0097e3-90c0-4441-abe0-8f8fc7c3bc7f}" frame="false" x="-21" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Valignment="AlignTop" rotation="0" y="-18" text_width="-1" Halignment="AlignLeft" z="9">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-10" length1="1.5" end2="none" y2="-3" x2="0" length2="1.5"/>
+        <line x1="40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-10" length1="1.5" end2="none" y2="-3" x2="40" length2="1.5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="17.5" y="-2.5" diameter="5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="37.5" y="-2.5" diameter="5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-2.5" y="-2.5" diameter="5"/>
+        <terminal uuid="{2ee4c56e-e130-43f3-905f-42ec381b63a2}" x="0" name="" y="-10" orientation="n"/>
+        <terminal uuid="{669a600d-6728-4f13-8c2d-df864e85774e}" x="0" name="" y="10" orientation="s"/>
+        <terminal uuid="{1965f4ff-10d3-48b3-98f3-0187c49252d8}" x="20" name="" y="-10" orientation="n"/>
+        <terminal uuid="{149b0fe3-f0df-4a3f-b698-9ec87d332eae}" x="20" name="" y="10" orientation="s"/>
+        <terminal uuid="{0c0f0f19-bee3-4492-ae64-a0699d491b88}" x="40" name="" y="-10" orientation="n"/>
+        <terminal uuid="{65a4656f-e0cc-4250-9d17-7353f4638c08}" x="40" name="" y="10" orientation="s"/>
+    </description>
+</definition>

@@ -1,0 +1,32 @@
+<definition type="element" width="20" height="20" hotspot_y="4" hotspot_x="4" version="0.80" link_type="simple">
+    <uuid uuid="{724d8bfb-00e5-4e7d-80f3-2c52c3b14645}"/>
+    <names>
+        <name lang="cs">Rozdělovač</name>
+        <name lang="nl">Verdeler</name>
+        <name lang="en">distributor</name>
+        <name lang="fr">Répartiteur</name>
+        <name lang="es">Distribuidor</name>
+        <name lang="it">Ripartitore</name>
+        <name lang="ar">مُوزّع</name>
+        <name lang="pl">Łączówka</name>
+        <name lang="hu">Elosztó</name>
+        <name lang="de">Verteiler</name>
+    </names>
+    <elementInformations/>
+    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+    <description>
+        <dynamic_text z="2" Halignment="AlignLeft" Valignment="AlignTop" y="-10.8333" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" frame="false" x="37" text_width="-1" uuid="{3ee8f5ef-f373-4c62-b12a-c7260522d5cc}" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-0.5" x="9.5" diameter="1" antialias="true"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-2.5" x="-2.5" diameter="5" antialias="true"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-0.5" x="-0.5" diameter="1" antialias="true"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" x1="10" y2="3" length1="1.5" x2="10" length2="1.5" antialias="false" y1="10"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" x1="0" y2="3" length1="1.5" x2="0" length2="1.5" antialias="false" y1="10"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-2.5" x="7.5" diameter="5" antialias="true"/>
+        <terminal y="10" name="" x="10" uuid="{a1d2a1f5-7a79-4d2b-a4f1-cc666d4136ca}" orientation="s"/>
+        <terminal y="10" name="" x="0" uuid="{8d7fcaf8-55fd-47f4-813f-53f13b8096e5}" orientation="s"/>
+    </description>
+</definition>

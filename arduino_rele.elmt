@@ -1,0 +1,53 @@
+<definition width="80" hotspot_x="35" hotspot_y="40" link_type="simple" version="0.80" type="element" height="90">
+    <uuid uuid="{ecf3c203-d9a4-42ec-952c-221e01bc1f6d}"/>
+    <names>
+        <name lang="nl">relais module (2)</name>
+        <name lang="en">2 relays module</name>
+        <name lang="pl">Moduł przekaźnikowy</name>
+        <name lang="cs">Reléový modul (2 relé)</name>
+        <name lang="fr">Module 1 rele</name>
+        <name lang="it">Modulo 2 relais</name>
+    </names>
+    <elementInformations>
+        <elementInformation name="designation" show="1"></elementInformation>
+        <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
+        <elementInformation name="unity" show="1"></elementInformation>
+        <elementInformation name="quantity" show="1"></elementInformation>
+        <elementInformation name="plant" show="1"></elementInformation>
+        <elementInformation name="supplier" show="1"></elementInformation>
+        <elementInformation name="label" show="1"></elementInformation>
+        <elementInformation name="comment" show="1"></elementInformation>
+        <elementInformation name="description" show="1"></elementInformation>
+        <elementInformation name="manufacturer_reference" show="1"></elementInformation>
+        <elementInformation name="manufacturer" show="1">Arduino</elementInformation>
+    </elementInformations>
+    <informations>Charles Ferrand&#xd;
+novembre 2013</informations>
+    <description>
+        <circle diameter="2" antialias="true" x="3" y="-19" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <line x2="-10" length1="1.5" antialias="false" y1="-28.5543" y2="-18.5662" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="-10"/>
+        <line x2="-5" length1="1.5" antialias="false" y1="-18" y2="-18" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="-10"/>
+        <line x2="10" length1="1.5" antialias="false" y1="-18" y2="-18" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="5"/>
+        <line x2="10" length1="1.5" antialias="false" y1="-18.5203" y2="-27.5967" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="10"/>
+        <circle diameter="2" antialias="true" x="-5" y="-19" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <line x2="-3" length1="1.5" antialias="false" y1="-22" y2="-17" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="0"/>
+        <line x2="0" length1="1.5" antialias="false" y1="-30" y2="-22" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="0"/>
+        <text x="-3" y="24" text="+" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="90"/>
+        <text x="7" y="26" text="-" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="90"/>
+        <rect width="20" ry="0" antialias="false" x="-10" rx="0" y="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="16"/>
+        <text x="25" y="0" text="Relay" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="270"/>
+        <text x="-13" y="19" text="SGN" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="90"/>
+        <text x="-6" y="-6" text="R1" color="#000000" font="Sans Serif,7,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <rect width="70" ry="0" antialias="false" x="-30" rx="0" y="-35" style="line-style:normal;line-weight:normal;filling:none;color:black" height="80"/>
+        <dynamic_text z="28" uuid="{0f7c2e52-9756-4bb5-9572-bc617d1a72b6}" x="-8" frame="false" Valignment="AlignTop" y="42" text_from="ElementInfo" Halignment="AlignLeft" text_width="-1" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal name="" uuid="{78a7ffc3-5e39-4a66-945d-eb73fb45dd96}" x="0" orientation="n" y="-30"/>
+        <terminal name="" uuid="{c8e62d26-8bd8-4001-8be3-1e6c56d0a48c}" x="-10" orientation="n" y="-30"/>
+        <terminal name="" uuid="{186f9ded-e339-4a79-a99d-d56ccfd496ed}" x="10" orientation="s" y="40"/>
+        <terminal name="" uuid="{d87649d4-76e6-4b61-932a-198d66731e6f}" x="-10" orientation="s" y="40"/>
+        <terminal name="" uuid="{adc0ab07-731e-499e-a1d2-b419d47343e4}" x="0" orientation="s" y="40"/>
+        <terminal name="" uuid="{ecbf8c93-314c-4b76-a500-dd4218b17aee}" x="10" orientation="n" y="-30"/>
+    </description>
+</definition>

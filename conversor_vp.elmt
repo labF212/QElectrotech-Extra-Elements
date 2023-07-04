@@ -1,0 +1,69 @@
+<definition type="element" hotspot_y="34" version="0.90" width="130" link_type="simple" hotspot_x="64" height="100">
+    <uuid uuid="{df4e64d4-ae11-4d54-a7b3-c80547f65b1c}"/>
+    <names>
+        <name lang="en">SMC V/P  0-5V 0-1Bar</name>
+        <name lang="fr">SMC V/P  0-5V 0-1Bar</name>
+        <name lang="cs">SMC V/P  0-5V 0-1Bar</name>
+        <name lang="it">SMC V/P  0-5V 0-1Bar</name>
+        <name lang="pl">SMC V/P  0-5V 0-1Bar</name>
+        <name lang="pt">Conversor SMC V/P  0-5V 0-1Bar</name>
+        <name lang="nl">SMC V/P  0-5V 0-1Bar</name>
+    </names>
+    <elementInformations>
+        <elementInformation name="supplier" show="1"></elementInformation>
+        <elementInformation name="label" show="1"></elementInformation>
+        <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
+        <elementInformation name="quantity" show="1"></elementInformation>
+        <elementInformation name="plant" show="1"></elementInformation>
+        <elementInformation name="unity" show="1"></elementInformation>
+        <elementInformation name="designation" show="1"></elementInformation>
+        <elementInformation name="manufacturer_reference" show="1"></elementInformation>
+        <elementInformation name="comment" show="1"></elementInformation>
+        <elementInformation name="description" show="1"></elementInformation>
+        <elementInformation name="manufacturer" show="1"></elementInformation>
+    </elementInformations>
+    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+    <description>
+        <text font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="57.8975" color="#000000" x="20.6563" text="2-OUT" rotation="0"/>
+        <text font="Sans Serif,8,-1,5,50,0,0,0,0,0" y="-2" color="#000000" x="-16" text="-" rotation="0"/>
+        <circle y="50.8975" x="-59" diameter="8" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="-2" color="#000000" x="11.4062" text="+" rotation="0"/>
+        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="10" color="#000000" x="-5.54688" text="V" rotation="0"/>
+        <circle y="50.8975" x="51" diameter="8" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="64.8975" length2="1.5" length1="1.5" x2="55" x1="55" y2="59.8975" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line y1="-25.65" length2="1.5" length1="1.5" x2="-18.61" x1="-30.61" y2="-25.65" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line y1="64.8975" length2="1.5" length1="1.5" x2="55" x1="-55" y2="64.8975" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <circle y="-10" x="10" diameter="10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="64.8975" length2="1.5" length1="1.5" x2="-55" x1="-55" y2="59.8975" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="12" color="#000000" x="1.90625" text="in" rotation="0"/>
+        <text font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="57.8975" color="#000000" x="-50" text="1-SUP" rotation="0"/>
+        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="12" color="#000000" x="-22.5469" text="s" rotation="0"/>
+        <text font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="-13" color="#000000" x="29" text="BLK" rotation="0"/>
+        <circle y="-29.65" x="11" diameter="8" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="-29.65" x="31" diameter="8" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-25.65" length2="1.5" length1="1.5" x2="31" x1="19" y2="-25.65" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <text font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="-13" color="#000000" x="7" text="WHI" rotation="0"/>
+        <line y1="-25.65" length2="1.5" length1="1.5" x2="10.39" x1="-10.61" y2="-25.65" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <text font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="-13" color="#000000" x="-19.606" text="BLU" rotation="0"/>
+        <circle y="-29.65" x="-38.61" diameter="8" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="-29.65" x="-18.61" diameter="8" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-25.65" length2="1.5" length1="1.5" x2="-38.61" x1="-54.61" y2="-25.65" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line y1="-25.65" length2="1.5" length1="1.5" x2="55" x1="39.39" y2="-25.65" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <text font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="-13" color="#000000" x="-42.606" text="BRW" rotation="0"/>
+        <line y1="-25.65" length2="1.5" length1="1.5" x2="-55" x1="-55" y2="50" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line y1="-25" length2="1.5" length1="1.5" x2="55" x1="55" y2="50" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="25" color="#000000" x="-45" text="Conversor P/V" rotation="0"/>
+        <circle y="-10" x="-40" diameter="10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="-10" x="-20" diameter="10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="10" color="#000000" x="-30" text="V" rotation="0"/>
+        <text font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="-2" color="#000000" x="-38" text="+" rotation="0"/>
+        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="40" color="#000000" x="-50" text="SMC ITV0010-2L" rotation="0"/>
+        <terminal type="Generic" y="54.8975" x="-58" name="" uuid="{88a71ff3-b85b-4657-8ca7-fefa8e5a6682}" orientation="w"/>
+        <terminal type="Generic" y="-29.1" x="35" name="" uuid="{93c7ae0f-e4e7-4400-90cd-0ed34d38ddae}" orientation="n"/>
+        <terminal type="Generic" y="-29.1" x="15" name="" uuid="{3d108cdd-20ad-4afa-a8af-18457572e00b}" orientation="n"/>
+        <terminal type="Generic" y="-29.1" x="-14.606" name="" uuid="{a5ab6c1a-4cd9-441a-b99c-c24944e7012b}" orientation="n"/>
+        <terminal type="Generic" y="54.8975" x="58" name="" uuid="{f1e84025-c3fa-461a-a15e-1edc6c679dd8}" orientation="e"/>
+        <terminal type="Generic" y="-29.1" x="-34.606" name="" uuid="{591bd966-09e8-45b6-ba36-0727e3650a22}" orientation="n"/>
+    </description>
+</definition>

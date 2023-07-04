@@ -1,0 +1,54 @@
+<definition width="100" hotspot_x="30" hotspot_y="39" link_type="simple" version="0.80" type="element" height="80">
+    <uuid uuid="{d6c44f6f-3ed1-46b7-a750-77091ca2b541}"/>
+    <names>
+        <name lang="en">24V DC supply one phase</name>
+        <name lang="cs">Napájecí zdroj AC/DC 24V</name>
+        <name lang="hu">24V DC tápegység 1 fázis</name>
+    </names>
+    <elementInformations>
+        <elementInformation name="designation" show="1"></elementInformation>
+        <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
+        <elementInformation name="unity" show="1"></elementInformation>
+        <elementInformation name="quantity" show="1"></elementInformation>
+        <elementInformation name="plant" show="1"></elementInformation>
+        <elementInformation name="supplier" show="1"></elementInformation>
+        <elementInformation name="label" show="1"></elementInformation>
+        <elementInformation name="description" show="1"></elementInformation>
+        <elementInformation name="comment" show="1"></elementInformation>
+        <elementInformation name="manufacturer_reference" show="1"></elementInformation>
+        <elementInformation name="manufacturer" show="1"></elementInformation>
+    </elementInformations>
+    <informations></informations>
+    <description>
+        <text x="-8" y="-7" text="AC 1~" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <circle diameter="5" antialias="false" x="47.5" y="-32.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text x="29" y="24" text="-" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text x="-11" y="-19" text="L" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <line x2="47" length1="1.5" antialias="false" y1="30" y2="30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="33"/>
+        <text x="25.4871" y="12.3645" text="24V DC" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <line x2="27" length1="1.5" antialias="false" y1="30" y2="30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="13"/>
+        <line x2="7" length1="1.5" antialias="false" y1="30" y2="30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="-13"/>
+        <text x="7" y="24" text="+" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text x="45" y="-19" text="PE" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text x="28" y="-19" text="N" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <circle diameter="5" antialias="false" x="27.5" y="-32.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="5" antialias="false" x="7.5" y="27.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="5" antialias="false" x="27.5" y="27.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text z="20" uuid="{2b727eb9-6bbc-41f7-b41e-743d1b2159e2}" x="-65" frame="false" Valignment="AlignTop" y="-30" text_from="ElementInfo" Halignment="AlignLeft" text_width="0" rotation="0" font="MS Shell Dlg 2,9,-1,5,50,0,0,0,0,0,Normál">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon y4="-29.8785" x2="-25" x6="-13" x5="-13" y5="-29.8785" y6="-29.8785" antialias="false" x4="-13" y1="30" y2="30" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-25" y3="-29.8785" x1="-13"/>
+        <polygon y4="30" x2="65" x6="48" x5="53" y5="30" y6="30" antialias="false" x4="53" y1="-30.1383" y2="-30.1383" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="65" y3="30" x1="53"/>
+        <line x2="27" length1="1.5" antialias="false" y1="-30" y2="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="-7.25"/>
+        <line x2="47" length1="1.5" antialias="false" y1="-30" y2="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="33"/>
+        <rect width="60" ry="0" antialias="false" x="-10" rx="0" y="-15" style="line-style:normal;line-weight:thin;filling:none;color:black" height="30"/>
+        <line x2="-10" length1="1.5" antialias="false" y1="-15" y2="15" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end2="none" x1="50"/>
+        <circle diameter="5" antialias="false" x="-12.5" y="-32.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal name="" uuid="{24dc74de-9f1b-4775-bb78-b8ee0ca692a4}" x="30" orientation="s" y="33"/>
+        <terminal name="" uuid="{b7562295-5661-48b6-b2b4-aca24c56c560}" x="50" orientation="n" y="-33"/>
+        <terminal name="" uuid="{69ffe9de-39b7-49f5-a880-403bafc5ac66}" x="10" orientation="s" y="33"/>
+        <terminal name="" uuid="{8b3be6f9-df19-44d7-aeb3-733a71ec73b0}" x="30" orientation="n" y="-33"/>
+        <terminal name="" uuid="{d13d41d4-3765-4341-b26b-7f1014da9f1b}" x="-10" orientation="n" y="-33"/>
+    </description>
+</definition>
